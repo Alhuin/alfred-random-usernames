@@ -328,7 +328,7 @@
 - Choice to add a number suffix
 - Custom adjectives dictionary: Provide your own adjectives dictionnary
 - Choice to capitalize adjectives
-- Custom adjectives dictionary: Provide your own nouns dictionnary
+- Custom nouns dictionary: Provide your own nouns dictionnary
 - Choice to capitalize nouns
 
 ### Usage
@@ -360,7 +360,7 @@
 		<key>A5C0620E-F477-4488-92AB-A59384FF101C</key>
 		<dict>
 			<key>xpos</key>
-			<real>790</real>
+			<real>770</real>
 			<key>ypos</key>
 			<real>400</real>
 		</dict>
