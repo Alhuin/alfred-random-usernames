@@ -1,8 +1,7 @@
 # alfred-random-usernames
-An alfred workflow handling random usernames generation: Select between generated usernames and add the chosen one to the clipboard!
-
-<img width="718" alt="Screenshot 2023-10-29 at 16 35 08" src="https://github.com/Alhuin/alfred-random-usernames/assets/29608747/2c7996b2-3bd8-4921-bcce-36c4ab57c329">
-<img width="988" alt="Screenshot 2023-10-29 at 17 38 32" src="https://github.com/Alhuin/alfred-random-usernames/assets/29608747/a641ec3c-bf18-4538-82ac-5ed68ca25775">
+An alfred workflow to generate random usernames to your clipboard!
+<img width="715" alt="preview" src="https://github.com/Alhuin/alfred-random-usernames/assets/29608747/e45cea86-49a9-4a2a-b37a-5156357edaae">
+<img width="941" alt="Screenshot 2023-10-29 at 19 57 14" src="https://github.com/Alhuin/alfred-random-usernames/assets/29608747/f53a926b-561d-4368-8800-e4440560b8a0">
 
 ### Generation
 The generated usernames are composed of three parts:
@@ -11,7 +10,7 @@ The generated usernames are composed of three parts:
 - a numbers suffix
 
 ### Configuration
-<img width="506" alt="Screenshot 2023-10-29 at 16 58 03" src="https://github.com/Alhuin/alfred-random-usernames/assets/29608747/0366f38e-a293-4e18-8a26-92b782bb72b1">
+<img width="504" alt="Screenshot 2023-10-29 at 19 58 33" src="https://github.com/Alhuin/alfred-random-usernames/assets/29608747/3951b431-18e3-4036-9fc7-f710ad2f5fdd">
 
 5 settings are available:
 - `Number of generated usernames`: How many usernames should be generated at once (default is 5)
@@ -24,7 +23,7 @@ The generated usernames are composed of three parts:
 
 ### Usage
 - Alfred HotKey > `usergen` > select a username > the username is copied
-- HotKey ⌘⇧U > a random username is copied
+- Workflow HotKey > a random username is copied
 
 
 ### Requirements
