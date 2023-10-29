@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.alhuin.random-usernames</string>
-	<key>category</key>
-	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>02FCBE73-F980-4533-9916-40E6A6AB72CF</key>
@@ -103,7 +101,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Random Usernames</string>
+	<string>Radom Usernames</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -203,7 +201,7 @@
 				<key>text</key>
 				<string>{query}</string>
 				<key>title</key>
-				<string>The username has been copied to the clipboard</string>
+				<string>Username has been copied</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
@@ -321,7 +319,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># Random Usernames to yout Clipboard!
+	<string># Random Usernames to your Clipboard!
 ![Worflow](/images/preview.png)
 
 ### Configuration
@@ -362,7 +360,7 @@
 		<key>A5C0620E-F477-4488-92AB-A59384FF101C</key>
 		<dict>
 			<key>xpos</key>
-			<real>770</real>
+			<real>790</real>
 			<key>ypos</key>
 			<real>400</real>
 		</dict>
@@ -539,8 +537,10 @@
 			<string>capitalize_nouns</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string></string>
+	<string>1.0.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/Alhuin/alfred-random-usernames</string>
 </dict>
