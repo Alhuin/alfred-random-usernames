@@ -31,4 +31,5 @@ The generated usernames are composed of three parts:
 - python ^3.9
 
 ### Credits
-Generation logic: https://github.com/williexu/random_username
+- Generation logic: https://github.com/williexu/random_username
+- Icon: https://www.flaticon.com/free-icon/ninja_1071164
