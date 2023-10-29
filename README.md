@@ -17,14 +17,14 @@ The generated usernames are composed of three parts:
 - `Number of generated usernames`: How many usernames should be generated at once (default is 5)
 - `Numbers suffix max value`: The maximum number of the numbers suffix (default is 5000)
 - `Add a numbers suffix`: If a numbers suffix should be added to the usernames (default is True)
-- `Custom adjectives dictionnary`: Provide your own adjectives dictionnary (optional .txt file, example: [data/adjectives](data/adjectives.txt))
+- `Custom adjectives dictionary`: Provide your own adjectives dictionnary (optional .txt file, example: [data/adjectives](data/adjectives.txt))
 - `Capitalize adjectives`: If the adjective part of the usernames should be capitalized (default is True)
-- `The nouns file you want to pick from`: Provide your own nouns dictionnary (optional .txt file, example: [data/nouns.txt](data/nouns.txt))
+- `Custom adjectives dictionary`: Provide your own nouns dictionnary (optional .txt file, example: [data/nouns.txt](data/nouns.txt))
 - `Capitalize nouns`: If the noun part of the usernames should be capitalized (default is True)
 
 ### Usage
 - Alfred HotKey > `usergen` > select a username > the username is copied
-- HotKey ⌘⇧U (Customizable in the WorkfLow) > a random username is copied
+- HotKey ⌘⇧U > a random username is copied
 
 
 ### Requirements
