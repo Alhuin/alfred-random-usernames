@@ -9,6 +9,11 @@ The generated usernames are composed of three parts:
 - a noun
 - a numbers suffix
 
+### Installation
+- Download the workflow from [the latest release](https://github.com/Alhuin/alfred-random-usernames/releases/latest)
+- Open it to install with Alfred
+- Setup your desired HotKey shortcut
+
 ### Configuration
 <img width="504" alt="Screenshot 2023-10-29 at 19 58 33" src="https://github.com/Alhuin/alfred-random-usernames/assets/29608747/3951b431-18e3-4036-9fc7-f710ad2f5fdd">
 
