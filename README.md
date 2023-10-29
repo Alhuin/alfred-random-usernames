@@ -23,7 +23,7 @@ The generated usernames are composed of three parts:
 - `Add a numbers suffix`: If a numbers suffix should be added to the usernames (default is True)
 - `Custom adjectives dictionary`: Provide your own adjectives dictionnary (optional .txt file, example: [data/adjectives](data/adjectives.txt))
 - `Capitalize adjectives`: If the adjective part of the usernames should be capitalized (default is True)
-- `Custom adjectives dictionary`: Provide your own nouns dictionnary (optional .txt file, example: [data/nouns.txt](data/nouns.txt))
+- `Custom nouns dictionary`: Provide your own nouns dictionnary (optional .txt file, example: [data/nouns.txt](data/nouns.txt))
 - `Capitalize nouns`: If the noun part of the usernames should be capitalized (default is True)
 
 ### Usage
