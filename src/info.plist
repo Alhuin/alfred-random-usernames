@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.alhuin.random-usernames</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>02FCBE73-F980-4533-9916-40E6A6AB72CF</key>
@@ -222,11 +224,9 @@
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>32</integer>
+				<integer>0</integer>
 				<key>hotmod</key>
-				<integer>1179648</integer>
-				<key>hotstring</key>
-				<string>U</string>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
