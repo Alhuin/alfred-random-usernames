@@ -1,5 +1,5 @@
 # alfred-random-usernames
-An alfred workflow to generate random usernames to your clipboard!
+Yet another Alfred username generator: random usernames to your clipboard!
 <img width="715" alt="preview" src="https://github.com/Alhuin/alfred-random-usernames/assets/29608747/e45cea86-49a9-4a2a-b37a-5156357edaae">
 <img width="941" alt="Screenshot 2023-10-29 at 19 57 14" src="https://github.com/Alhuin/alfred-random-usernames/assets/29608747/f53a926b-561d-4368-8800-e4440560b8a0">
 
