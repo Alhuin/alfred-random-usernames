@@ -15,7 +15,7 @@ The generated usernames are composed of three parts:
 - Setup your desired HotKey shortcut
 
 ### Configuration
-<img width="504" alt="Screenshot 2023-10-29 at 19 58 33" src="https://github.com/Alhuin/alfred-random-usernames/assets/29608747/3951b431-18e3-4036-9fc7-f710ad2f5fdd">
+<img width="507" alt="Screenshot 2023-10-30 at 12 25 54" src="https://github.com/Alhuin/alfred-random-usernames/assets/29608747/ab493ccc-6ae2-4e29-ae3e-ae2c65af036e">
 
 5 settings are available:
 - `Number of generated usernames`: How many usernames should be generated at once (default is 5)
