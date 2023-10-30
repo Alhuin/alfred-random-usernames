@@ -1,9 +1,22 @@
 import os
 import random
+import sys
+
+if use_wonderwords := os.getenv("use_wonderwords") == "1":
+    lib_path = os.path.join(os.path.dirname(__file__), "lib")
+    sys.path.insert(0, lib_path)
+    from wonderwords import RandomWord
+
+    r = RandomWord()
 
 
 class ConfigurationError(Exception):
     pass
+
+
+def _get_wonderwords(nb, type):
+    words = r.random_words(nb, include_categories=[type])
+    return words
 
 
 def _validate_env_positive_integer(field_name):
@@ -30,19 +43,26 @@ def _validate_env_txt_file(field_name):
 
 
 def generate_usernames(nb_usernames):
-    adjectives = _validate_env_txt_file("adjectives_path")
     capitalize_adjectives = os.getenv("capitalize_adjectives") == "1"
-    nouns = _validate_env_txt_file("nouns_path")
     capitalize_nouns = os.getenv("capitalize_nouns") == "1"
+
+    if use_wonderwords:
+        adjectives = _get_wonderwords(nb_usernames, "adjectives")
+        nouns = _get_wonderwords(nb_usernames, "nouns")
+    else:
+        adjectives = random.choices(
+            _validate_env_txt_file("adjectives_path"), k=nb_usernames
+        )
+        nouns = random.choices(_validate_env_txt_file("nouns_path"), k=nb_usernames)
 
     if number_suffix := (os.getenv("number_suffix") == "1"):
         number_suffix_range = _validate_env_positive_integer("number_suffix_range")
 
     return [
         (
-            f"{random.choice(adjectives).capitalize() if capitalize_adjectives else random.choice(adjectives)}"
-            f"{random.choice(nouns).capitalize() if capitalize_nouns else random.choice(nouns)}"
+            f"{adjectives[i].capitalize() if capitalize_adjectives else adjectives[i]}"
+            f"{nouns[i].capitalize() if capitalize_nouns else nouns[i]}"
             f"{random.randrange(number_suffix_range) if number_suffix else ''}"
         )
-        for _ in range(nb_usernames)
+        for i in range(nb_usernames)
     ]
