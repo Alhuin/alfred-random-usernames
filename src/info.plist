@@ -336,7 +336,12 @@
 
 ### Usage
 - Alfred HotKey &gt; `usergen` &gt; select a username &gt; the username is copied
-- HotKey ⌘⇧U &gt; a random username is copied</string>
+- HotKey ⌘⇧U &gt; a random username is copied
+
+### Credits
+- Generation logic: https://github.com/williexu/random_username
+- wonderwords package: https://pypi.org/project/wonderwords/
+- Icon: https://www.flaticon.com/free-icon/ninja_1071164</string>
 	<key>uidata</key>
 	<dict>
 		<key>02FCBE73-F980-4533-9916-40E6A6AB72CF</key>
