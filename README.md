@@ -19,11 +19,12 @@ The generated usernames are composed of three parts:
 
 5 settings are available:
 - `Number of generated usernames`: How many usernames should be generated at once (default is 5)
-- `Numbers suffix max value`: The maximum number of the numbers suffix (default is 5000)
-- `Add a numbers suffix`: If a numbers suffix should be added to the usernames (default is True)
-- `Custom adjectives dictionary`: Provide your own adjectives dictionnary (optional .txt file, example: [data/adjectives](data/adjectives.txt))
+- `Number suffix max value`: The maximum number of the number suffix (default is 5000)
+- `Add a number suffix`: If a number suffix should be added to the usernames (default is True)
+- `Custom adjectives dictionary`: Provide your own adjectives dictionnary (.txt file, default is [data/adjectives](data/adjectives.txt))
+- `Custom nouns dictionary`: Provide your own nouns dictionnary (.txt file, default is [data/nouns.txt](data/nouns.txt))
+- `Use wonderwords`: external package for random words generation
 - `Capitalize adjectives`: If the adjective part of the usernames should be capitalized (default is True)
-- `Custom nouns dictionary`: Provide your own nouns dictionnary (optional .txt file, example: [data/nouns.txt](data/nouns.txt))
 - `Capitalize nouns`: If the noun part of the usernames should be capitalized (default is True)
 
 ### Usage
@@ -37,4 +38,5 @@ The generated usernames are composed of three parts:
 
 ### Credits
 - Generation logic: https://github.com/williexu/random_username
+- wonderwords package: https://pypi.org/project/wonderwords/
 - Icon: https://www.flaticon.com/free-icon/ninja_1071164
