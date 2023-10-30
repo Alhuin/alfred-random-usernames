@@ -21,8 +21,8 @@ The generated usernames are composed of three parts:
 - `Number of generated usernames`: How many usernames should be generated at once (default is 5)
 - `Number suffix max value`: The maximum number of the number suffix (default is 5000)
 - `Add a number suffix`: If a number suffix should be added to the usernames (default is True)
-- `Custom adjectives dictionary`: Provide your own adjectives dictionnary (.txt file, default is [data/adjectives](data/adjectives.txt))
-- `Custom nouns dictionary`: Provide your own nouns dictionnary (.txt file, default is [data/nouns.txt](data/nouns.txt))
+- `Custom adjectives dictionary`: Provide your own adjectives dictionnary (default is [data/adjectives.txt](data/adjectives.txt))
+- `Custom nouns dictionary`: Provide your own nouns dictionnary (default is [data/nouns.txt](data/nouns.txt))
 - `Use wonderwords`: external package for random words generation
 - `Capitalize adjectives`: If the adjective part of the usernames should be capitalized (default is True)
 - `Capitalize nouns`: If the noun part of the usernames should be capitalized (default is True)
