@@ -279,7 +279,7 @@
 						<key>matchmode</key>
 						<integer>4</integer>
 						<key>matchstring</key>
-						<string>ConfigurationException.*</string>
+						<string>ConfigurationError.*</string>
 						<key>outputlabel</key>
 						<string>Error</string>
 						<key>uid</key>
@@ -347,14 +347,14 @@
 		<key>02FCBE73-F980-4533-9916-40E6A6AB72CF</key>
 		<dict>
 			<key>xpos</key>
-			<real>290</real>
+			<real>270</real>
 			<key>ypos</key>
 			<real>295</real>
 		</dict>
 		<key>5A561623-5E65-45CD-9ABC-6DAC81848D23</key>
 		<dict>
 			<key>xpos</key>
-			<real>785</real>
+			<real>790</real>
 			<key>ypos</key>
 			<real>190</real>
 		</dict>
@@ -368,7 +368,7 @@
 		<key>A5C0620E-F477-4488-92AB-A59384FF101C</key>
 		<dict>
 			<key>xpos</key>
-			<real>785</real>
+			<real>790</real>
 			<key>ypos</key>
 			<real>380</real>
 		</dict>
@@ -382,7 +382,7 @@
 		<key>A91C42C6-6608-478F-B5DE-903E06B3B3C9</key>
 		<dict>
 			<key>xpos</key>
-			<real>500</real>
+			<real>490</real>
 			<key>ypos</key>
 			<real>315</real>
 		</dict>
@@ -396,7 +396,7 @@
 		<key>D5CBC7DD-1A0A-4B9D-8BEF-CB9DE7C6DDC6</key>
 		<dict>
 			<key>xpos</key>
-			<real>675</real>
+			<real>665</real>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>
@@ -514,10 +514,10 @@
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Use WorderWords</string>
+				<string>Use WonderWords</string>
 			</dict>
 			<key>description</key>
-			<string>Use worderwords package to generate random nouns and adjectives.                                              If enabled, custom dictionaries will not be considered.</string>
+			<string>Use WonderWords package to generate random nouns and adjectives.                                              If enabled, custom dictionaries will not be considered.</string>
 			<key>label</key>
 			<string></string>
 			<key>type</key>
